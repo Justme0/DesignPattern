@@ -2,4 +2,4 @@
 
 make all
 
-./../../bin/pattens/singleton/main
+./../../bin/patterns/singleton/main

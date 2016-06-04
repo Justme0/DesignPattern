@@ -1,5 +1,5 @@
-SRC_DIR = ../../src/pattens/singleton
-BIN_DIR = ../../bin/pattens/singleton
+SRC_DIR = ../../src/patterns/singleton
+BIN_DIR = ../../bin/patterns/singleton
 
 all: chkbindir main
 

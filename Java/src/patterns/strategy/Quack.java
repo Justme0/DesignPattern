@@ -1,4 +1,4 @@
-package pattens.strategy;
+package patterns.strategy;
 
 public class Quack implements SoundBehavior {
 	public void sound() {

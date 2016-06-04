@@ -1,4 +1,4 @@
-package pattens.strategy;
+package patterns.strategy;
 
 public class SimUDuck {
 	public static void main(String argv[]) {

@@ -1,4 +1,4 @@
-package pattens.singleton;
+package patterns.singleton;
 
 public class Singleton {
     private volatile static Singleton uniqueInstance;
