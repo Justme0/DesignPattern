@@ -10,3 +10,5 @@ We're taking a class and letting it manage a single instance of itself. We're al
 Create a static member instance in class which has a private constructor and using a static function to get the single instance. At the same time, pay attention to the problem of synchronization.
 
 Java Code: [Issue #1](https://github.com/cxlove/DesignPatten/issues/1) 
+
+c++ Code: [Issue #2](https://github.com/cxlove/DesignPatten/issues/2) 
