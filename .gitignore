@@ -1,0 +1,6 @@
+*.class
+*.o
+.metadata/
+RemoteSystemsTempFiles/
+Java/bin/
+
