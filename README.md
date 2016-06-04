@@ -12,3 +12,9 @@ Create a static member instance in class which has a private constructor and usi
 Java Code: [Issue #1](https://github.com/cxlove/DesignPatten/issues/1) 
 
 c++ Code: [Issue #2](https://github.com/cxlove/DesignPatten/issues/2) 
+
+## Strategy Patten
+
+Define a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+
+Java Code & Design Step: [Issue #3](https://github.com/cxlove/DesignPatten/issues/3) 
