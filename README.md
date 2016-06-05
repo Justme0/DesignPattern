@@ -18,3 +18,5 @@ c++ Code: [Issue #2](https://github.com/cxlove/DesignPattern/issues/2)
 Define a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 
 Java Code & Design Step: [Issue #3](https://github.com/cxlove/DesignPattern/issues/3) 
+
+c++ Code: [Issue #4](https://github.com/cxlove/DesignPattern/issues/4) 
