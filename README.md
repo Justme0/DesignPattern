@@ -1,6 +1,10 @@
 # DesignPattern
 The example code from head first design patterns for practicing 
 
+**Reference: [Head First Design Patterns](http://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)**
+
+**If there is any content related to copyright, please concat author to declare it or remove it. Thanks.**
+
 ## Singleton Pattern
 
 Your ticket to creating one-of-a-object, for which there is only one instance.
