@@ -25,4 +25,10 @@ c++ Code: [Issue #4](https://github.com/cxlove/DesignPattern/issues/4)
 
 It defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
 
+I guess called Subscription Pattern will be more appropriate. We have a Subject which have some data or some information, just like a journal or website. Some people or Observer want to have a subscription. The Subject need to notifiy all of the Observer when some changes happend or just regularly. Meanwhile, the Subject need to support register and unregister for Observer. So, it's Observer Pattern. It's a one-to-many dependency between Subject and Observers.
+
+In our example, the weather station or weather data is the Subject. So it implements from a Subject interface which support register & unregister & notify. And some different DisplayElements is the Observer. It implements from a DisplayElement which support display and a Observer which support observed multiple Subjects.  
+
+The DisplayElement don't need to know how Subject implemented, because it just use some interfaces to interact with Subject. And Subject also don't need to know what is the difference for different types of Observer, beacuse it also just use some same interfaces to interfact with all of Observers. It's convenient to add a new DisplayElement or Observer.
+
 Java Code & Design Step: [Issue #5](https://github.com/cxlove/DesignPattern/issues/5) 

@@ -1,13 +1,12 @@
 package patterns.observer;
 
-public class HeatIndexDisplay {
+public class HeatIndexDisplay implements DisplayElement, Observer {
 	private float index = 0.0f;
 	
-	public void update(float temperature, float humidity, float pressure) {
-		index = computeHeatIndex(temperature, humidity);		
-		display();
+	public HeatIndexDisplay(Subject subject) {
+		subject.registerObserver(this);
 	}
-	
+
 	private float computeHeatIndex(float t, float rh) {
 		float index = (float) ((16.923 + (0.185212 * t) + (5.37941 * rh)
 				- (0.100254 * t * rh) + (0.00941695 * (t * t))
@@ -22,8 +21,15 @@ public class HeatIndexDisplay {
 				* rh * rh)));
 		return index;
 	}
+	
+	@Override
+	public void update(float temperature, float humidity, float pressure) {
+		index = computeHeatIndex(temperature, humidity);		
+		display();
+	}
 
+	@Override
 	public void display() {
-		System.out.println("Heat Index is " + index);
+		System.out.println("Heat Index Display: " + index);
 	}
 }
