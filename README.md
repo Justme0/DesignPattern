@@ -20,3 +20,9 @@ Define a family of algorithms, encapsulates each one, and makes them interchange
 Java Code & Design Step: [Issue #3](https://github.com/cxlove/DesignPattern/issues/3) 
 
 c++ Code: [Issue #4](https://github.com/cxlove/DesignPattern/issues/4) 
+
+## Observer Pattern
+
+It defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
+
+Java Code & Design Step: [Issue #5](https://github.com/cxlove/DesignPattern/issues/5) 
