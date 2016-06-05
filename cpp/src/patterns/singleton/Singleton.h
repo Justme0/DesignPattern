@@ -4,9 +4,11 @@
 class Singleton {
 private :
     Singleton();
-    Singleton(Singleton const&);
-    void operator=(Singleton const&);
+
 public :
     static Singleton &GetInstance();
+
+    Singleton(Singleton const&) = delete;
+    Singleton &operator=(Singleton const&) = delete;
 };
 #endif /* SIGLETON_H_ */
