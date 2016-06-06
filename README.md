@@ -50,3 +50,5 @@ Actually, in decorations pattern, we build a Componment class, Concrete Componme
 <del>By the way, I cann't find its benefit compared to Combination between Concrete Componment and Decorators. I can add a ArrayList for decorations in Concrete Componment.</del> 
 
 Java Code: [Issue #8](https://github.com/cxlove/DesignPattern/issues/8) 
+
+c++ Code: [Issue #9](https://github.com/cxlove/DesignPattern/issues/9) 
