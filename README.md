@@ -36,3 +36,17 @@ In our example, the weather station or weather data is the Subject. So it implem
 The DisplayElement don't need to know how Subject implemented, because it just use some interfaces to interact with Subject. And Subject also don't need to know what is the difference for different types of Observer, beacuse it also just use some same interfaces to interfact with all of Observers. It's convenient to add a new DisplayElement or Observer.
 
 Java Code & Design Step: [Issue #5](https://github.com/cxlove/DesignPattern/issues/5) 
+
+## Decorator Pattern
+
+The Decorator Pattern attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+
+We have some componment. Some of them, I called Base Componment which are Concrete Componments. Others are decorations. In our example, base Coffe are Concrete Componments, such as Espresso and DarkRoast. And we have some options, such as Milk, Moca and Soy, which are decorations.
+
+If we build each coffe with different options as a new Class, it will be a large scale. And also we cannot add all of decorations in coffe class for options, if there is a new decorations, we need to change the code, even the whole interfaces. 
+
+Actually, in decorations pattern, we build a Componment class, Concrete Componment and Decorators both inherit it. Seems like a Wrapping operation one by one for decorations, and the Concrete Componment is innermost.  
+
+<del>By the way, I cann't find its benefit compared to Combination between Concrete Componment and Decorators. I can add a ArrayList for decorations in Concrete Componment.</del> 
+
+Java Code: [Issue #8](https://github.com/cxlove/DesignPattern/issues/8) 
