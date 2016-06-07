@@ -37,6 +37,8 @@ The DisplayElement don't need to know how Subject implemented, because it just u
 
 Java Code & Design Step: [Issue #5](https://github.com/cxlove/DesignPattern/issues/5) 
 
+c++ Code: [Issue #7](https://github.com/cxlove/DesignPattern/issues/7) 
+
 ## Decorator Pattern
 
 The Decorator Pattern attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
