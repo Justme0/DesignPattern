@@ -54,3 +54,15 @@ Actually, in decorations pattern, we build a Componment class, Concrete Componme
 Java Code: [Issue #8](https://github.com/cxlove/DesignPattern/issues/8) 
 
 c++ Code: [Issue #9](https://github.com/cxlove/DesignPattern/issues/9) 
+
+## Factory Pattern
+
+Remember that design should be open for extension, but closed for modification. If your code is written to an interface, it will work with any new class implementing that interface through polymorphism. However, when your code is written for concrete class, it will be a big trouble if a new class occured. Remember our priciple which find the aspects that vary and separate them from what stay the smae. 
+
+For Example: Duck is the interface, Duck duck = createDuck() is good for design, we can new different types of duck in createDuck(). 
+
+<strong>Type #1: Simple Factory</strong>
+
+Which is not a desgin pattern, it's more of a programming idiom. We have several types of concrete classes. We create the corresponding class which according to a type string, and we will add or remove some classes. So we can add a factory to help us to create the concrete clases. In the factory, it will create the corresponding product base on a common interface. The main class don't care about how factory do that, and it also don't care the new product occured, which are same interface. 
+
+Java Code: [Issue #10](https://github.com/cxlove/DesignPattern/issues/10) 
