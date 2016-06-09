@@ -65,4 +65,8 @@ For Example: Duck is the interface, Duck duck = createDuck() is good for design,
 
 Which is not a desgin pattern, it's more of a programming idiom. We have several types of concrete classes. We create the corresponding class which according to a type string, and we will add or remove some classes. So we can add a factory to help us to create the concrete clases. In the factory, it will create the corresponding product base on a common interface. The main class don't care about how factory do that, and it also don't care the new product occured, which are same interface. 
 
+<strong>Type #2: Factory Method</strong>
+
+Factory Method Pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses. Remove factory class in simple factory, put the instance creating in subclass directly. Factory class have a absract method for concrete factory to implement. 
+
 Java Code: [Issue #10](https://github.com/cxlove/DesignPattern/issues/10) 

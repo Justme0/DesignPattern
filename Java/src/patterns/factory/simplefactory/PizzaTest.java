@@ -1,4 +1,4 @@
-package patterns.factory.simplefactory;
+package patterns.factory.simpleFactory;
 
 public class PizzaTest {
 	public static void main(String argv[]) {

@@ -1,4 +1,4 @@
-package patterns.factory.simplefactory;
+package patterns.factory.simpleFactory;
 
 import java.util.ArrayList;
 public abstract class Pizza {

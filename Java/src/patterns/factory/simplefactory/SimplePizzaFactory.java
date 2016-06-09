@@ -1,4 +1,4 @@
-package patterns.factory.simplefactory;
+package patterns.factory.simpleFactory;
 
 public class SimplePizzaFactory {
 	public Pizza createPizza(String type) {
