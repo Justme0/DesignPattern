@@ -69,4 +69,8 @@ Which is not a desgin pattern, it's more of a programming idiom. We have several
 
 Factory Method Pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses. Remove factory class in simple factory, put the instance creating in subclass directly. Factory class have a absract method for concrete factory to implement. 
 
+<strong>Type #3: Abstract Factory</strong>
+
+The Abstract Factory Pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes. In our example, we have a interface of PizzaIngredientFactory can create different materials. 
+
 Java Code: [Issue #10](https://github.com/cxlove/DesignPattern/issues/10) 
