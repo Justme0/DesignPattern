@@ -1,7 +1,7 @@
 package patterns.factory.factoryMethod;
 
-public class NewYorkCheesPizza extends Pizza {
-	public NewYorkCheesPizza() {
+public class NewYorkCheesePizza extends Pizza {
+	public NewYorkCheesePizza() {
 		name = "New York Cheese Pizza";
 		dough = "Regular Crust";
 		sauce = "Marinara Pizza Sauce";

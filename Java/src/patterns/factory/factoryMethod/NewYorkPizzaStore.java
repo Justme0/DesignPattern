@@ -7,8 +7,8 @@ public class NewYorkPizzaStore extends PizzaStore {
 		Pizza pizza = null;
 		
 		System.out.println("###########This is a new Pizza " + type + " for NewYorkPizzaStore.##########");
-		if(type.equals("Chees")) {
-			pizza = new NewYorkCheesPizza();
+		if(type.equals("Cheese")) {
+			pizza = new NewYorkCheesePizza();
 		}
 		else if(type.equals("Clam")) {
 			pizza = new NewYorkClamPizza();
