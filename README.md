@@ -76,3 +76,12 @@ The Abstract Factory Pattern provides an interface for creating families of rela
 Java Code: [Issue #10](https://github.com/cxlove/DesignPattern/issues/10) 
 
 c++ Code: [Issue #11](https://github.com/cxlove/DesignPattern/issues/11) 
+
+## Command Patterns
+
+The Command Pattern encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
+
+We package the actions and the receiver up into an command object which exposes only one method execute(). When called this method, it causes the cations to be invoked on the receiver. After that, we can assemble the command into a controler. From the outside, controler don't really know what actions get execute on what receiver, they just know that if they call the method, their request will be serviced.  
+
+Java Code: [Issue #12](https://github.com/cxlove/DesignPattern/issues/12) 
+
