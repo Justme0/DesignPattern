@@ -74,3 +74,5 @@ Factory Method Pattern defines an interface for creating an object, but lets sub
 The Abstract Factory Pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes. In our example, we have a interface of PizzaIngredientFactory can create different materials. 
 
 Java Code: [Issue #10](https://github.com/cxlove/DesignPattern/issues/10) 
+
+c++ Code: [Issue #11](https://github.com/cxlove/DesignPattern/issues/11) 
