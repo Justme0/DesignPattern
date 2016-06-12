@@ -85,3 +85,4 @@ We package the actions and the receiver up into an command object which exposes 
 
 Java Code: [Issue #12](https://github.com/cxlove/DesignPattern/issues/12) 
 
+c++ Code: [Issue #13](https://github.com/cxlove/DesignPattern/issues/13) 
