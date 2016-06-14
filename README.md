@@ -86,3 +86,13 @@ We package the actions and the receiver up into an command object which exposes 
 Java Code: [Issue #12](https://github.com/cxlove/DesignPattern/issues/12) 
 
 c++ Code: [Issue #13](https://github.com/cxlove/DesignPattern/issues/13) 
+
+## Adapter Pattern 
+
+The Adapter Pattern converts the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn’t otherwise because of incompatible interface.
+
+<strong> Type #1: Object Adapter: </strong>
+
+We can build a adapter implements the target interface and use the object composition to wrap the adaptee. This approach has the added advantage that we can use an adapter with any subclass  of the adaptee.
+
+Java Code: [Issue #14](https://github.com/cxlove/DesignPattern/issues/14) 
