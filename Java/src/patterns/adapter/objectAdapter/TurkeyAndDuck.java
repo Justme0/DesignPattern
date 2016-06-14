@@ -1,4 +1,4 @@
-package patterns.adapter.turkeyToDuck;
+package patterns.adapter.objectAdapter;
 
 public class TurkeyAndDuck {
 	public static void main(String argv[]) {

@@ -1,4 +1,4 @@
-package patterns.adapter.turkeyToDuck;
+package patterns.adapter.objectAdapter;
 
 public class TurkeyAdapter implements Duck {
 	Turkey turkey;
