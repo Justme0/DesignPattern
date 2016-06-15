@@ -100,3 +100,5 @@ We can build a adapter implements the target interface and use the object compos
 We can build a adapter implements the target interface and inherit from a concrete class adaptee. Yeah ,the difference is that with class adapter we subclass the target and adaptee, not the composition. So it has trouble with that because it committed to one specific adaptee class. But it can convert a part of function because of subclassing.   
 
 Java Code: [Issue #14](https://github.com/cxlove/DesignPattern/issues/14) 
+
+c++ Code: [Issue #15](https://github.com/cxlove/DesignPattern/issues/15) 
