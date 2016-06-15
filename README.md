@@ -102,3 +102,9 @@ We can build a adapter implements the target interface and inherit from a concre
 Java Code: [Issue #14](https://github.com/cxlove/DesignPattern/issues/14) 
 
 c++ Code: [Issue #15](https://github.com/cxlove/DesignPattern/issues/15) 
+
+## Facade Pattern 
+
+The Facade Pattern provides a unified interface to a set of interfaces in a subsytem. Facade defines a higher- level interface that makes the subsystem easier to use.
+
+We create a class unified a set of more complex classes. It's straightforward and easy understand.
