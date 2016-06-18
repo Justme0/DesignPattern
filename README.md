@@ -109,10 +109,12 @@ The Facade Pattern provides a unified interface to a set of interfaces in a subs
 
 We create a class unified a set of more complex classes. It's straightforward and easy understand.
 
-## Template PamZ 
+## Template Pattern
 
 The Template Method Pattern defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.
 
 It's easy to understand this pattern. We find the common process and common function between serveal classes. So we build a super abstract class, which have a template function. And implement the comman function in super class, and deferring the difference to subclasses.
 
 Java Code: [Issue #17](https://github.com/cxlove/DesignPattern/issues/17) 
+
+c++ Code: [Issue #18](https://github.com/cxlove/DesignPattern/issues/18) 
