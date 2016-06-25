@@ -118,3 +118,13 @@ It's easy to understand this pattern. We find the common process and common func
 Java Code: [Issue #17](https://github.com/cxlove/DesignPattern/issues/17) 
 
 c++ Code: [Issue #18](https://github.com/cxlove/DesignPattern/issues/18) 
+
+## Iterator Pattern
+
+The Iterator Pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+
+This pattern gives you a way to step through the elements of an aggregate without to know how things are represented under the conver.
+
+If we add a new object for this aggregate, we don't need to change the previous code to access this element. What we should do is just add the objecdt and the corresponding iterator interface. 
+
+Java Code: [Issue #19](https://github.com/cxlove/DesignPattern/issues/19) 
