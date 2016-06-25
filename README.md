@@ -128,3 +128,5 @@ This pattern gives you a way to step through the elements of an aggregate withou
 If we add a new object for this aggregate, we don't need to change the previous code to access this element. What we should do is just add the objecdt and the corresponding iterator interface. 
 
 Java Code: [Issue #19](https://github.com/cxlove/DesignPattern/issues/19) 
+
+c++ Code: [Issue #20](https://github.com/cxlove/DesignPattern/issues/20) 
