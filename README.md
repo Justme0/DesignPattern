@@ -130,3 +130,11 @@ If we add a new object for this aggregate, we don't need to change the previous 
 Java Code: [Issue #19](https://github.com/cxlove/DesignPattern/issues/19) 
 
 c++ Code: [Issue #20](https://github.com/cxlove/DesignPattern/issues/20) 
+
+## Composite Pattren
+
+The Composite Pattern allows you to compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects
+
+We can build a tree structure and traversal it using recursion. Create a base abstract class to represent the tree node, and each type of node can subclass it. 
+
+Java Code: [Issue #21](https://github.com/cxlove/DesignPattern/issues/21) 
