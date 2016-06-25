@@ -27,11 +27,6 @@ public class Menu extends MenuComponent {
 	
 	public void print() {
 		System.out.println("Menu: " + getName() + ", " + getDescription());
-		Iterator<MenuComponent> iterator = menuComponents.iterator();
-		while(iterator.hasNext()) {
-			MenuComponent component = (MenuComponent) iterator.next();
-			component.print();
-		}
 	}
 
 	@Override
