@@ -137,4 +137,6 @@ The Composite Pattern allows you to compose objects into tree structures to repr
 
 We can build a tree structure and traversal it using recursion. Create a base abstract class to represent the tree node, and each type of node can subclass it. 
 
+We can also allow to iterate over the entry composite.
+
 Java Code: [Issue #21](https://github.com/cxlove/DesignPattern/issues/21) 
