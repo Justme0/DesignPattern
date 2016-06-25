@@ -140,3 +140,5 @@ We can build a tree structure and traversal it using recursion. Create a base ab
 We can also allow to iterate over the entry composite.
 
 Java Code: [Issue #21](https://github.com/cxlove/DesignPattern/issues/21) 
+
+c++ Code: [Issue #22](https://github.com/cxlove/DesignPattern/issues/22) 
