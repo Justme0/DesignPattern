@@ -1,0 +1,224 @@
+g++ ../../../../src/patterns/state/state/*.cc -std=c++11 -o ../../../../bin/patterns/state/state/main
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:1:0:
+../../../../src/patterns/state/state/SoldState.h: In member function 'virtual void SoldState::Dispense()':
+../../../../src/patterns/state/state/SoldState.h:22:17: error: invalid use of incomplete type 'class VendingMachine'
+         machine_->Release();
+                 ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:1:0:
+../../../../src/patterns/state/state/SoldState.h:23:21: error: invalid use of incomplete type 'class VendingMachine'
+         if (machine_->GetCount() == 0) {
+                     ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:1:0:
+../../../../src/patterns/state/state/SoldState.h:25:21: error: invalid use of incomplete type 'class VendingMachine'
+             machine_->SetState(machine_->GetSoldOut());
+                     ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:1:0:
+../../../../src/patterns/state/state/SoldState.h:25:40: error: invalid use of incomplete type 'class VendingMachine'
+             machine_->SetState(machine_->GetSoldOut());
+                                        ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:1:0:
+../../../../src/patterns/state/state/SoldState.h:27:21: error: invalid use of incomplete type 'class VendingMachine'
+             machine_->SetState(machine_->GetNoMoney());
+                     ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:1:0:
+../../../../src/patterns/state/state/SoldState.h:27:40: error: invalid use of incomplete type 'class VendingMachine'
+             machine_->SetState(machine_->GetNoMoney());
+                                        ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:2:0:
+../../../../src/patterns/state/state/WinnerState.h: In member function 'virtual void WinnerState::Dispense()':
+../../../../src/patterns/state/state/WinnerState.h:22:17: error: invalid use of incomplete type 'class VendingMachine'
+         machine_->Release();
+                 ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:2:0:
+../../../../src/patterns/state/state/WinnerState.h:23:20: error: invalid use of incomplete type 'class VendingMachine'
+         if(machine_->GetCount() > 0) {
+                    ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:2:0:
+../../../../src/patterns/state/state/WinnerState.h:24:21: error: invalid use of incomplete type 'class VendingMachine'
+             machine_->Release();
+                     ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:2:0:
+../../../../src/patterns/state/state/WinnerState.h:25:24: error: invalid use of incomplete type 'class VendingMachine'
+             if(machine_->GetCount() == 0) {
+                        ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:2:0:
+../../../../src/patterns/state/state/WinnerState.h:27:25: error: invalid use of incomplete type 'class VendingMachine'
+                 machine_->SetState(machine_->GetSoldOut());
+                         ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:2:0:
+../../../../src/patterns/state/state/WinnerState.h:27:44: error: invalid use of incomplete type 'class VendingMachine'
+                 machine_->SetState(machine_->GetSoldOut());
+                                            ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:2:0:
+../../../../src/patterns/state/state/WinnerState.h:30:25: error: invalid use of incomplete type 'class VendingMachine'
+                 machine_->SetState(machine_->GetNoMoney());
+                         ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:2:0:
+../../../../src/patterns/state/state/WinnerState.h:30:44: error: invalid use of incomplete type 'class VendingMachine'
+                 machine_->SetState(machine_->GetNoMoney());
+                                            ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:2:0:
+../../../../src/patterns/state/state/WinnerState.h:35:21: error: invalid use of incomplete type 'class VendingMachine'
+             machine_->SetState(machine_->GetSoldOut());
+                     ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:2:0:
+../../../../src/patterns/state/state/WinnerState.h:35:40: error: invalid use of incomplete type 'class VendingMachine'
+             machine_->SetState(machine_->GetSoldOut());
+                                        ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:4:0:
+../../../../src/patterns/state/state/NoMoneyState.h: In member function 'virtual void NoMoneyState::Insert()':
+../../../../src/patterns/state/state/NoMoneyState.h:10:17: error: invalid use of incomplete type 'class VendingMachine'
+         machine_->SetState(machine_->GetHasMoeny());
+                 ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:4:0:
+../../../../src/patterns/state/state/NoMoneyState.h:10:36: error: invalid use of incomplete type 'class VendingMachine'
+         machine_->SetState(machine_->GetHasMoeny());
+                                    ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:5:0:
+../../../../src/patterns/state/state/HasMoneyState.h: In member function 'virtual void HasMoneyState::Eject()':
+../../../../src/patterns/state/state/HasMoneyState.h:14:17: error: invalid use of incomplete type 'class VendingMachine'
+         machine_->SetState(machine_->GetNoMoney());
+                 ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:5:0:
+../../../../src/patterns/state/state/HasMoneyState.h:14:36: error: invalid use of incomplete type 'class VendingMachine'
+         machine_->SetState(machine_->GetNoMoney());
+                                    ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:5:0:
+../../../../src/patterns/state/state/HasMoneyState.h: In member function 'virtual void HasMoneyState::Bought()':
+../../../../src/patterns/state/state/HasMoneyState.h:21:21: error: invalid use of incomplete type 'class VendingMachine'
+             machine_->SetState(machine_->GetWinner());
+                     ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:5:0:
+../../../../src/patterns/state/state/HasMoneyState.h:21:40: error: invalid use of incomplete type 'class VendingMachine'
+             machine_->SetState(machine_->GetWinner());
+                                        ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:5:0:
+../../../../src/patterns/state/state/HasMoneyState.h:24:21: error: invalid use of incomplete type 'class VendingMachine'
+             machine_->SetState(machine_->GetSold());
+                     ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+In file included from ../../../../src/patterns/state/state/VendingMachine.cc:5:0:
+../../../../src/patterns/state/state/HasMoneyState.h:24:40: error: invalid use of incomplete type 'class VendingMachine'
+             machine_->SetState(machine_->GetSold());
+                                        ^
+In file included from ../../../../src/patterns/state/state/SoldState.h:4:0,
+                 from ../../../../src/patterns/state/state/VendingMachine.cc:1:
+../../../../src/patterns/state/state/State.h:6:7: error: forward declaration of 'class VendingMachine'
+ class VendingMachine;
+       ^
+make: *** [main] Error 1
+run.sh: line 5: ./../../../../bin/patterns/state/state/main: No such file or directory
