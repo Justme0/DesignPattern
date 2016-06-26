@@ -145,6 +145,8 @@ c++ Code: [Issue #22](https://github.com/cxlove/DesignPattern/issues/22)
 
 ## State Pattern 
 
+The State Pattern allows an object to alter its behavior when its internal state changes. The object will appear to change its class;
+
 In out example, we build a vending machine, it support insert money, eject money and bought. So there serverl state for machine, which including no money, no goods, eject money and so on. 
 
 Java Code: [Issue #24](https://github.com/cxlove/DesignPattern/issues/24) 
