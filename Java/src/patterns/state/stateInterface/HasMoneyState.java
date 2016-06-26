@@ -1,8 +1,11 @@
 package patterns.state.stateInterface;
 
+import java.util.Random;
+
 public class HasMoneyState implements State {
 	private VendingMachine machine;
-	
+	Random random = new Random(System.currentTimeMillis());
+
 	public HasMoneyState(VendingMachine machine) {
 		this.machine = machine;
 	}
@@ -21,7 +24,13 @@ public class HasMoneyState implements State {
 	@Override
 	public void bought() {
 		System.out.println("You got the goods...");
-		machine.setState(machine.getSold());
+		int winner = random.nextInt(5);
+		if(winner == 0) {
+			machine.setState(machine.getWinner());
+		}
+		else {
+			machine.setState(machine.getSold());
+		}
 	}
 
 	@Override

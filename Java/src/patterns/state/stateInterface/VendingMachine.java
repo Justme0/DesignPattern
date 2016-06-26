@@ -7,6 +7,7 @@ public class VendingMachine {
 	private State sold;
 	private State soldOut;
 	private State state;
+	private State winner;
 	
 	public VendingMachine(int count) {
 		this.count = count;
@@ -15,6 +16,7 @@ public class VendingMachine {
 		hasMoney = new HasMoneyState(this);
 		sold = new SoldState(this);
 		soldOut = new SoldOutState(this);
+		winner = new WinnerState(this);
 		
 		if(this.count > 0) {
 			state = noMoney;
@@ -64,6 +66,10 @@ public class VendingMachine {
 	
 	public State getSoldOut() {
 		return soldOut;
+	}
+	
+	public State getWinner() {
+		return winner;
 	}
 	
 	public int getCount() {

@@ -1,7 +1,5 @@
 package patterns.state.stateInterface;
 
-import patterns.state.naive.VendingMachine;
-
 public class VendingMachineTest {
 
 	public static void main(String[] args) {
