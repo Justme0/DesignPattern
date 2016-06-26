@@ -142,3 +142,9 @@ We can also allow to iterate over the entry composite.
 Java Code: [Issue #21](https://github.com/cxlove/DesignPattern/issues/21) 
 
 c++ Code: [Issue #22](https://github.com/cxlove/DesignPattern/issues/22) 
+
+## State Pattern 
+
+In out example, we build a vending machine, it support insert money, eject money and bought. So there serverl state for machine, which including no money, no goods, eject money and so on. 
+
+Java Code: [Issue #24](https://github.com/cxlove/DesignPattern/issues/24) 
